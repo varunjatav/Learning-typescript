@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(13, 13, 60);
+}
+
+.search-input {
+  margin: 20px auto;
+}
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#user {
+  padding: 5px 3px;
+}
+#form button {
+  padding: 5px 3px;
+}
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(24, 24, 111);
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.card:hover {
+  box-shadow: rgba(235, 230, 230, 0.1) 0px 1px 1px 0px inset,
+    rgba(210, 210, 224, 0.25) 0px 50px 100px -20px,
+    rgba(241, 239, 239, 0.3) 0px 30px 60px -30px;
+  top: 10px;
+}
+.user-img {
+  width: 100%;
+  height: 75%;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-footer a {
+  text-decoration: none;
+  color: white;
+}
+.card-footer img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.empty-msg {
+  color: white;
+}
